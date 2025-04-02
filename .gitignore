@@ -48,8 +48,17 @@ config.ini
 *secret*
 *credentials*
 
-# Data directories
-data/
+# Data directories - modified to be more selective
+# data/  # Commenting this out to allow data directory
+# Exclude large files and sensitive data within data directory
+data/**/*.mp4
+data/**/*.wav
+data/**/*.mp3
+data/**/*.pdf
+data/**/*credentials*
+data/**/*api_key*
+data/**/*secret*
+data/**/reports/
 
 # Jupyter Notebook
 .ipynb_checkpoints

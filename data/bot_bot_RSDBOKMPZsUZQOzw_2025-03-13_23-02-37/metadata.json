@@ -1,0 +1,33 @@
+{
+  "id": "bot_RSDBOKMPZsUZQOzw",
+  "meeting_url": "https://zoom.us/j/82252436569?pwd=X8lMjn437t7oiaLINBtgwaXLgivpqp.1",
+  "state": "ended",
+  "events": [
+    {
+      "type": "join_requested",
+      "created_at": "2025-03-14T01:52:46.495948Z"
+    },
+    {
+      "type": "put_in_waiting_room",
+      "created_at": "2025-03-14T01:53:33.297283Z"
+    },
+    {
+      "type": "joined_meeting",
+      "created_at": "2025-03-14T01:53:41.725491Z"
+    },
+    {
+      "type": "recording_permission_granted",
+      "created_at": "2025-03-14T01:53:53.028840Z"
+    },
+    {
+      "type": "meeting_ended",
+      "created_at": "2025-03-14T01:57:48.603223Z"
+    },
+    {
+      "type": "post_processing_completed",
+      "created_at": "2025-03-14T01:57:52.149727Z"
+    }
+  ],
+  "transcription_state": "complete",
+  "recording_state": "complete"
+}
